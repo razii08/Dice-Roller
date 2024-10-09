@@ -1,0 +1,50 @@
+.blue-btn {
+    background-color: #007BFF; 
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blue-btn:hover {
+    background-color: #0056b3; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blue-btn:active {
+    background-color: #004494; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffafcc;
+}
+#container{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#diceresult{
+    margin: 25px;
+}
+#diceimage img{
+    margin: 5px;
+    width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .blue-btn{
+        position: relative;
+        top: 15px;
+    }
+}
